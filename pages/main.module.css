@@ -1,0 +1,366 @@
+
+.logodiv {
+  position: relative;
+  top: 20px;
+  float: left;
+}
+
+.linksdiv {
+  position: relative;
+  top: 40px;
+  left: 142px;
+  /* background-color: aliceblue; */
+  width: 900px;
+  height: 40px;
+}
+.links {
+  text-decoration: none;
+  color: purple;
+  /* position: relative;
+      left: 20px; */
+  margin-left: 50px;
+  font-size: 20px;
+}
+.links:hover {
+  color: rgb(218, 60, 218);
+  transition: 0.5s;
+}
+.Searchdiv {
+  position: relative;
+  left: 45%;
+  width: 500px;
+}
+.searchbox {
+  width: 300px;
+  height: 25px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 14px;
+  font-size: 15px;
+  border: none;
+  float: left;
+}
+.searchbox:hover {
+  box-shadow: 5px 4px 7px rgb(184, 51, 184);
+  /* background-color: rgb(174, 200, 249); */
+  transition: 0.7s;
+}
+
+.btndiv {
+  float: right;
+}
+
+#btn {
+  width: 120px;
+  height: 20px;
+  position: relative;
+  right: 20px;
+  background-color: blueviolet;
+  color: wheat;
+  box-shadow: 3px 4px 8px rgb(13, 55, 204);
+  border: none;
+  border-radius: 3px;
+}
+#btn:hover {
+  box-shadow: 3px 4px 8px rgb(147, 28, 226);
+  transition: 0.5s;
+}
+
+.maindiv {
+  width: 700px;
+  position: relative;
+  left: 100px;
+  background-color: antiquewhite;
+}
+
+.nftpicdiv {
+  /* position: relative; */
+  width: 100px;
+  height: auto;
+}
+
+.NFTPIC {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+.nftprice1 {
+  float: left;
+}
+.nftprice2 {
+  float: right;
+}
+
+.nftprice {
+  position: relative;
+  /* bottom: 40px; */
+  /* margin-bottom: 80px; */
+}
+
+
+
+.divmaincontainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 70% 70% 70% 70%;
+  column-gap: 50%;
+  /* margin-left: 10px; */
+  /* margin-top: 30px; */
+}
+
+.line {
+  /* margin-top: 100px; */
+  /* margin-left: 5%; */
+  width: 1285px;
+  box-shadow: 3px 2px 4px rgb(201, 96, 201);
+}
+
+.titlenfts {
+  margin-top: 15%;
+}
+.title {
+  /* position: relative; */
+  /* margin-left: 125px; */
+  margin-bottom: -4px;
+}
+
+/* ............................................................................................. */
+
+.dt1 {
+  /* align-items: center; */
+  margin-left: 10%;
+  width: 80%;
+  height: fit-content;
+  display: block;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.dt2 {
+  margin-left: 10%;
+  width: 80%;
+  height: fit-content;
+  overflow: hidden;
+}
+.wallet {
+  float: right;
+  margin-right: 20px;
+}
+.pages {
+  position: absolute;
+  left: 500px;
+}
+#pr {
+  margin-left: -1px;
+  color: chartreuse;
+  float: left;
+}
+#stakingv3 {
+  /* margin-left: -145px; */
+  float: left;
+}
+.dtr {
+  /* display: inline; */
+  margin-right: 50px;
+  margin-left: 100px;
+  float: right;
+  color: rgba(255, 255, 255, 0.847);
+}
+.dtrr {
+  float: right;
+  color: aliceblue;
+  font-size: 20px;
+  margin-right: 8px;
+  margin-left: 110px;
+}
+
+.menubtn {
+  color: aliceblue;
+  background-color: rgb(1, 8, 47);
+  border-color: aliceblue;
+  float: right;
+  margin-left: 30px;
+  width: 150px;
+  height: 40px;
+}
+.menubtn:hover {
+  transition: 0.4s;
+  box-shadow: 4px 8px 8px #12766d;
+}
+
+#content {
+  margin-left: 10px;
+  margin-top: -4px;
+  float: left;
+}
+#logo {
+  margin-top: -15px;
+  border-radius: 10px;
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.stakel1 {
+  background-color: rgb(24, 20, 68);
+  float: left;
+  width: 350px;
+  margin-left: 10%;
+  height: 500px;
+  overflow: hidden;
+}
+.lvtoken {
+  font-size: 28px;
+  position: relative;
+  left: 15px;
+  margin-bottom: -20px;
+}
+
+.txtlr {
+  float: right;
+}
+.statedtoken {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 4px; */
+  border-radius: 5px;
+  background-color: rgba(48, 167, 127, 0.712);
+  width: 85%;
+  height: 75px;
+  margin-left: 7%;
+  overflow: hidden;
+  margin-top: 5%;
+  /* display: grid;
+      grid-template-columns: 30% 20% 20%; */
+}
+.nametkn {
+  float: left;
+}
+.resultday {
+  float: right;
+}
+.detailstkn {
+  display: grid;
+  grid-template-columns: 30% 30% 30% !important;
+  margin-left: 300px;
+}
+/* .................................................................abolfazl code.................................................. */
+/* .dt1{
+  overflow: auto !important;
+  background-color: aquamarine;
+   display: grid;
+  grid-template-columns: auto auto;
+  } */
+.dt1 {
+  /* width: fit-content; */
+  /* background-color: black; */
+  display: inline-block;
+  margin-left: -80px;
+}
+
+#hDays {
+  color: rgb(236, 153, 85);
+}
+/* body Style */
+
+
+/* Section Style */
+
+
+/* All Offers Container Style */
+.allofferscontainer {
+  height: fit-content;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 5%;
+}
+
+/* Offer Container Style */
+.offercontainer {
+  width: 300px;
+  height: 250px;
+  background-color: #17182c;
+}
+
+/* Offer Contents div Style */
+.offertitlecontentsdiv {
+  width: 250px;
+  height: 200px;
+  /* margin: 30px; */
+  /* margin-left: 100px; */
+  color: whitesmoke;
+  font-family: roboto;
+  margin-top: 50px;
+  /* background-color: antiquewhite; */
+}
+
+.offertitlecontentsdiv:hover {
+  margin-top: 25px;
+  transition: 0.7s;
+}
+
+/* Title and Picture div Style */
+.titlepicdiv {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.titlepicdivimg {
+  margin: 10px;
+}
+
+/* Offer Contents Style */
+.offercontents {
+  /* background-color: antiquewhite; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 73%;
+  font-size: 14px;
+}
+.rightcontents {
+  text-align: right;
+}
+
+/* Stake Button Style */
+.btn {
+  background-color: #6b55ff;
+  border: none;
+  padding: 11px 0;
+  width: 250px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: #3e3192;
+  transition: 0.5s;
+  box-shadow: 3px 5px 5px rgba(94, 21, 196, 0.842);
+}
+.apydivs {
+  color: rgb(43, 180, 151);
+}
+.cldivs {
+  color: rgb(158, 157, 157);
+}
+.tokenslg {
+  width: 250px;
+  height: 150px;
+}
+
+.widrawunstake {
+  margin-left: 300px;
+  width: fit-content;
+}
+.top {
+  margin-top: -7px;
+}
+.font {
+  font-size: 15px;
+}
+
+.color {
+  /* background-color: aliceblue; */
+  width: 250px;
+}
