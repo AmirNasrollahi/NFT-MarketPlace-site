@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "axios": "^1.4.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "react": "^16.14.0",
+    "web3": "^4.0.1",
+    "web3modal": "^1.9.12"
+  }
+}
